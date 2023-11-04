@@ -1,0 +1,479 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+.first{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100px;
+    /* margin-top: 50px; */
+    padding: 0px 80px;
+}
+.first .one{
+        position: relative;
+}
+.first input{
+    /* width: 250px; */
+    /* background-color: gainsboro; */
+    padding: 7px 35px;
+    border-radius: 20px; 
+    border: none;
+    font-size: 15px;
+}
+.first input:hover{
+    /* background-color: red;
+    margin-left: 50px;
+    transition: .5s; */
+}
+.first input:focus{
+    outline: none;
+}
+.first .one i{
+    font-size: 15px;
+    position: absolute;
+    top: 8px;
+    left: 5px;
+    color: rgb(97, 97, 97);
+}
+
+.first .two{
+    border: 2px solid black;
+    padding: 5px;
+    margin-right: 250px;
+}
+.first .two p{
+    font-size: 18px;
+    color: rgb(97, 97, 97);
+    cursor: pointer;
+    /* margin-right: ; */
+}
+.first.three{
+    display: flex;
+    /* justify-content: center; */
+    position: relative;
+}
+.first .three i{
+    font-size: 15px;
+    color: rgb(97, 97, 97);
+    padding-right: 10px;
+}
+.first .three i:hover{
+    color: black;
+    transform: scale(1.1);
+    /* transform: translateY(50px); */
+    
+}
+.first .three p{
+    background-color: rgb(109, 17, 196);
+    color: white;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    padding-left: 7px;
+    padding-top: 4px;
+    position: absolute;
+    top: 22px;
+    right: 75px;
+    font-size: 10px;
+}
+
+/* -----------------start nav-------------- */
+nav{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+nav a{
+    text-decoration: none;
+    padding-right: 25px;
+    font-size: 12px;
+    font-weight: bold;
+    color: rgb(97, 97, 97);
+}
+nav a:hover{
+    color: rgb(109, 17, 196);
+    transition: .3s;
+}
+nav a i{
+    margin-left: 5px;
+}
+nav .active {
+    color: rgb(109, 17, 196);
+}
+
+/* --------------------------------------- start    sec 1---------------------------- */
+.sec1{
+    background-image: url(imgs/hero_1.jpg);
+    /* background-position: center;  */
+    background-repeat: no-repeat; 
+    background-size: 100%;
+    /* width: 100%; */
+    height:800px;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    /* margin-top: 300px; */
+}
+.text{
+    width: 380px;
+    margin-right: 150px;
+    margin-bottom: 200px;
+}
+.text h1{
+    margin-bottom: 15px;
+    font-size: 40px;
+}
+.text p{
+    line-height: 2;
+}
+.text button{
+    padding: 10px 20px;
+    margin-top: 20px;
+    background-color: blueviolet;
+    color: white;
+    cursor: pointer;
+    border: none;
+    border-radius: 4px;
+    font-size: 10px;
+    letter-spacing: 2px; 
+    transition: .5s;
+    
+}
+.text button:hover{
+    box-shadow: 1px 1px 1px 1px #1d1d1d;
+    transform: scale(1.1);
+    transition: .5s;
+}
+
+/* --------------------------------------- end   sec 1---------------------------- */
+
+/* --------------------------------------- start sec 2---------------------------- */
+.sec2{
+    margin-top: -100px;
+    /* display: flex; */
+}
+
+.sec2 .one{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.sec2 .one div{
+    display: flex;
+    justify-content: space-between;
+    width: 300px;
+    margin-bottom: 30px;
+}
+.sec2 .one div .words{
+    display: flex;
+    flex-direction: column;
+    line-height: 1;
+}
+.sec2 .one div .words h4{
+ margin-bottom: 15px;
+}
+.sec2 .one div .words p{
+    color: rgb(97, 97, 97);
+    line-height: 1.5;
+
+}
+.sec2 .one div i{
+    color: blueviolet;
+    font-size: 30px;
+    padding-right: 20px;
+}
+.sec2 .one div .fa-question{
+    background-color: blueviolet;
+    color: white;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    font-size: 25px;
+    padding-left: 8px;
+    padding-top: 3px;
+    margin-right: 15px;  
+}
+
+/* .sec2 .two{
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-evenly;
+
+    padding: 0px 100px;
+    position: relative;
+    overflow: hidden;
+}
+.sec2 .two div p{
+    position: absolute;
+    bottom: 50px;
+    font-size: 15px;
+    font-weight: bold;
+} */
+
+.sec2 .two{
+    display: flex;
+    justify-content: space-evenly;
+    padding: 0px 100px;
+    margin-top: 60px;
+    position: relative;
+}
+.sec2 .two img{
+   /* background-color: rgba(0,0,0,.9);
+   opacity: .9; */
+   filter: brightness(80%);
+}
+.sec2 .two img:hover{
+    transform: scale(1.1);
+    transition: .5s;
+    cursor: pointer;
+}
+.sec2 .two div p{
+    position: absolute;
+    bottom: 45px;
+    padding-left: 10px;
+    color: white;
+}
+.sec2 .two div h4{
+    position: absolute;
+    bottom: 10px;
+    padding-left: 10px;
+    font-size: 30px;
+    color: white;
+}
+.img1{
+    box-shadow: 10px 0px 5px rgb(173, 172, 172) ;
+}
+/* ---------------------------------------end sec 2---------------------------- */
+
+/* --------------------------------------- start sec 3 ---------------------------- */
+.sec3{
+    background-color: rgb(209, 209, 209);
+    width: 100%;
+    margin-top: 70px;
+    /* margin-bottom: 750px; */
+    padding-bottom: 100px;
+    
+}
+.sec3 .featured{
+    padding-top: 70px;
+    padding-bottom: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.sec3 .featured hr{
+    width: 50px;
+    color: blueviolet;
+    border: 2px solid blueviolet;
+    /* margin-left: 45%; */
+}
+.sec3 .featured h2{
+    padding-top: 20px;
+    /* margin-left: 40%; */
+    font-family: sans-serif;
+}
+.sec3 .imgs{
+    display: flex;
+    justify-content: space-evenly;
+    margin: 0px 70px;
+
+}
+.sec3 .imgs div{
+    background-color: white;
+    height: 350px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;    
+}
+.sec3 .imgs div h4{
+    cursor: pointer;
+    padding: 10px 0px;
+    color: rgb(109, 17, 196);
+}
+.sec3 .imgs div p{
+    color: rgb(97, 97, 97);
+}
+
+/* --------------------------------------- End sec 3 ---------------------------- */
+
+
+/* --------------------------------------- start sec 4---------------------------- */
+.sec4{
+    width: 100%;
+    margin-top:30px;
+    margin-bottom: 70px;
+
+}
+.sec4 .featured{
+    padding-top: 70px;
+    padding-bottom: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.sec4 .featured hr{
+    width: 35px;
+    color: rgb(109, 17, 196);
+    color: rgb(109, 17, 196);
+    /* margin-left: 45%; */
+
+}
+.sec4 .featured h2{
+    padding-top: 20px;
+    /* margin-left: 40%; */
+    font-family: sans-serif;
+}
+.sec4 .blog{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.sec4 .blog .blog_text{
+    width: 350px;
+}
+.sec4 .blog .blog_text h2{
+    color: rgb(109, 17, 196);
+    text-align: center;
+    padding-bottom: 10px;
+}
+.sec4 .blog .blog_text span{
+    color: rgb(109, 17, 196);
+    font-weight: bold;
+}
+.sec4 .blog .blog_text .pp{
+    text-align: center;
+    color: rgb(97, 97, 97);
+    padding-bottom: 15px;
+    font-size: 12px;
+}
+.sec4 .blog .blog_text p{
+    text-align: center;
+    padding-bottom: 15px;
+    font-size: 15px;
+    color: rgb(97, 97, 97);
+}
+.sec4 .blog .blog_text a{
+    display: flex;
+    justify-content: center;
+    text-decoration: none;
+}
+.sec4 .blog .blog_text  button{
+    padding: 10px 20px;
+    /* margin-top: 20px; */
+    background-color: blueviolet;
+    color: white;
+    cursor: pointer;
+    border: none;
+    border-radius: 4px;
+    font-size: 10px;
+    letter-spacing: 2px; 
+    transition: .5s;   
+}
+.sec4 .blog .blog_text button:hover{
+    box-shadow: 1px 1px 1px 1px #1d1d1d;
+    transform: scale(1.1);
+    transition: .5s;
+}
+
+/* --------------------------------------- end sec 4---------------------------- */
+
+/* --------------------------------------- start sec 5---------------------------- */
+.sec5{
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-around;
+    position: relative;
+}
+.sec5 div{
+    display: flex;
+    flex-direction: column;
+}
+.sec5 div a{
+    text-decoration: none;
+    color: rgb(97, 97, 97);
+    margin: 10px 0px;
+    font-size: 12px;
+    font-weight: bold;
+}
+.sec5 div h3{
+    padding-bottom: 10px;
+    font-size: 18px;
+}
+.sec5 .two{
+    /* position: absolute; */
+    margin-top: 30px;
+
+}
+.sec5 .three{
+    margin-top: 30px;
+}
+.sec5 .finding{
+    color: rgb(109, 17, 196);
+    margin-top: 15px;
+    margin-bottom: 0px;
+    
+} 
+.sec5 .my{
+    display: flex;
+    flex-direction: row;
+    /* color: red; */
+}
+.sec5 .my i{
+    color: rgb(109, 17, 196);
+    margin-right: 20px;
+    margin-bottom: 15px;
+    
+}
+.sec5 .my p{
+    color: rgb(97, 97, 97);
+    font-size: 14px;
+    font-weight: bold;
+}
+.sec5 h4{
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+.sec5 input{
+    padding: 11px;
+    width: 210px;
+    position: relative;
+    border: 1px solid gainsboro;
+    border-radius: 5px;
+}
+.sec5 input:focus{
+    outline: none;
+}
+.sec5 button{
+    width: 70px;
+    padding: 10px;
+    position: absolute;
+    top: 174px;
+    left: 1157px;
+    border: none;
+    color: white;
+    background-color: rgb(109, 17, 196);
+    border-radius: 5px;
+    cursor: pointer;
+}
+/* --------------------------------------- end sec 5---------------------------- */
+.footerp{
+    margin: 50px;
+    text-align: center;
+    font-size: 12px;
+    color: rgb(97, 97, 97);
+}
+.footerp i{
+    color:gray;
+}
+.footerp span{
+    color: rgb(109, 17, 196) ;
+    font-weight: bold;
+}
